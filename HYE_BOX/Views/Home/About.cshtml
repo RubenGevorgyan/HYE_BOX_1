@@ -1,0 +1,145 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<style>
+    
+    button {
+        background-color: whitesmoke;
+        border-radius: 25px;
+        border-color: #330136;
+        height:100px;
+        width:200px;
+        color:#330136;
+        font-size:x-large;
+        margin-top:150px;
+        cursor:pointer;
+    }
+    .active, .button:hover {
+  background-color: #666;
+  color: white;
+}
+    body, html {
+        margin: 0;
+        padding: 0;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+    h1 {
+        text-align:center;
+    }
+    text-center{
+        text-align:center;
+    }
+    .parallax {
+        /* The image used */
+        background-image: url(https://i.ibb.co/ZJNBtDz/IMG-0080.jpg);
+        height: 500px;
+        overflow-x: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform-style: preserve-3d;
+        background-size: cover;
+        display: block;
+    }
+    .parallax2 {
+        /* The image used */
+        background-image: url(https://i.ibb.co/dGrtYGQ/IMG-0067.jpg);
+        height: 500px;
+        overflow-x: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform-style: preserve-3d;
+        display: block;
+    }
+     .parallax3 {
+        /* The image used */
+        background-image: url(https://i.ibb.co/nsHBBh7/IMG-0119.jpg);
+        height: 500px;
+        overflow-x: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform-style: preserve-3d;
+        display: block;
+    }
+     .parallax4 {
+        /* The image used */
+        background-image: url(https://lh3.google.com/u/0/d/1K3ziYpBUzq7CjXn6qGCU38kNNH0nRif2=w1920-h950-iv1);
+        height: 500px;
+        overflow-x: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform-style: preserve-3d;
+        background-size: cover;
+        display: block;
+        padding-bottom:0px;
+    }
+    text {
+        color: #330136;
+        font-size: x-large;
+        text-align: center;
+    }
+    hr {
+        border-top-color:#ffce1c;
+    }
+    div{
+        
+        
+        text-align:center;
+    }
+        div4{
+        text-align:center;
+    }
+</style>
+<body>
+    <div class="parallax">
+        <h1 style="color:#ffce1c; margin-top: 150px; font-size:100px;">ABOUT US</h1>
+
+    </div>
+    <div style="padding-bottom:32.16px;">
+        <text >
+            <h1>WHO?</h1>
+            <hr />
+            We are HYE BOX, monthly subscription boxes from Armenia. Our box is collected with products made in Armenia. We collect four unique items in one box. Our project is for people who can create and want to have an income and for families living abroad, wanting their children to be connected with their culture. Our Monthly boxes from Armenia have monthly themes, all connected with Armenian culture and history.
+            By buying a box one helps small businesses and people in vulnerable groups, who create items from our box.
+        </text>
+    </div>
+    <div class="parallax2"></div>
+    <div style="padding-bottom:32.16px;">
+        <text>
+            <h1>WHY?</h1>
+            <text>
+                <hr />
+                People with disability have fewer opportunities to monetize their skills. Some organizations and projects help them to gain those skills, but there are not enough opportunities to monetize them. Armenia has a significant diaspora and children raising abroad have a problem to reconnect with their homeland. We have a two-sided problem and one BOX.
+            </text>
+    </div>
+    <div class="parallax3"></div>
+    <div style="padding-bottom:32.16px;">
+        <text>
+            <h1>HOW?</h1>
+            <hr />
+            Our solution is in our box. The box is FROM Armenia mostly made by people with disability FOR children living and raising abroad in families that want their children to learn about their homeland, culture and receive a box that they will love.
+        </text>
+    </div>
+</body>
+<div class="parallax4" >
+    <h1 style="font-size:xx-large; color:#ffce1c">
+        Order Boxes for only
+    </h1>
+    <h1 style="font-size:xx-large; color:#ffce1c">
+        53.99 $
+    </h1>
+    <button onclick="window.location.href='http://localhost:52040/Home/Create'">
+        Buy Boxes
+    </button>
+</div>
